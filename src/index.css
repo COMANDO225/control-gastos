@@ -15,6 +15,7 @@ body {
     font-size: 1.6rem;
     font-family: 'Lato', sans-serif;
     background-color: var(--gris-claro);
+    margin: 0;
 }
 html {
     font-size: 62.5%;
@@ -27,7 +28,6 @@ html {
 }
 
 *{
-    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -419,6 +419,10 @@ body .modal {
     text-align: right;
 }
 
-.contenedor-presupuesto p{
-    margin-bottom: 10px !important;
+.disponible{
+    color: #2DD753 !important;
+}
+
+.gastado{
+    color: #ED121D !important;
 }
